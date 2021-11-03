@@ -21,7 +21,7 @@ catkin_package(
 
 include_directories(include)
 
-find_package(OpenCV 3.2 REQUIRED) 
+find_package(OpenCV REQUIRED) 
 include_directories(${catkin_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 find_package(VisionWorks REQUIRED)
 include_directories(${VisionWorks_INCLUDE_DIRS})
